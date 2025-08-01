@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anonymous Message Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🔒 Anonymous Wall</h1>
+  <form id="messageForm">
+    <textarea id="message" placeholder="Say something anonymously..." required></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="messages"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
